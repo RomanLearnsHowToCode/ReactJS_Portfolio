@@ -71,3 +71,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 - after some issues with the installation a brand new project has been created and this one is working fine, since the configuration was done right.
 - Sunday 14/08/2022 - finished at 35:09
+
+
+- Working on project, this will be a main point of my new portfolio.. the goal is to finish the main version of this, and then elaborate on the basic version.
