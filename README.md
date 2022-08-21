@@ -72,5 +72,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - after some issues with the installation a brand new project has been created and this one is working fine, since the configuration was done right.
 - Sunday 14/08/2022 - finished at 35:09
 
-
 - Working on project, this will be a main point of my new portfolio.. the goal is to finish the main version of this, and then elaborate on the basic version.
+
+- Quite a lot of work done today, added the animated background for future reference: https://youtu.be/Tmkr2kKUEgU, finished at 55 minute: https://youtu.be/2kg0z1qNrkw
+
+- finalising this tutorial, skipped some parts as they are not required.. react-scroll package seems to be interesting where this would do a smooth transition from anywhere on the site to the top and such.. at the same time found so called neumorphism - https://css-tricks.com/neumorphism-and-css/ & https://www.npmjs.com/package/tailwindcss-neumorphism - https://www.youtube.com/watch?v=k48zirCrx8Q - https://neumorphism.io/#e0e0e0 - https://www.youtube.com/watch?v=O7WbVj5apxU glass design of Ui etc.. 
