@@ -6,19 +6,24 @@ import {BsFillPersonLinesFill} from 'react-icons/bs'
 
 const Navbar = () => {
     
-    return (
-      <div className='fixed w-full h-[200px] items-center px-4 bg-[#0a192f] text-gray-300'>
-        <div className='flex flex-row ml-[5%]'>
+    function linkedIn() {
+        window.open("http://www.seznam.cz", "_blank")
+    }
 
+    return (
+      <div name='navbar' className='fixed w-full h-[200px] mx-auto px-8 bg-[#0a192f] text-gray-300'>
+        {/* Container */}
+        <div className='flex flex-row ml-[5%]'>
+            
             <div className='w-[80] h-[160px] flex flex-row mt-[-100px] hover:mt-[0px] duration-300 bg-blue-600'>
+            <button onClick={linkedIn}>
                 <div className=' mt-[20%] ml-[20%]'>
                     <p className='py-5'>LinkedIn</p>
                 </div>
                 <div className='mt-[110px] ml-[-50%]'>
                         <FaLinkedin size={30}/>
-                    <a href="/">
-                    </a>
                 </div>
+            </button>
             </div>
 
             <div className='w-[80] h-[160px] flex flex-row mt-[-100px] hover:mt-[0px] duration-300 bg-[#333333]'>

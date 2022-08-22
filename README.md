@@ -81,3 +81,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 - THIS SHOULD BE NOW VERSION 1 CHANGE
+
+* 2x components are now showing as they supposed to, however the drop down menu is not completed quite yet.. this will need to be changed, also button functionality https://react.school/ui/button 
