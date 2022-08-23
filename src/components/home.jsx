@@ -1,10 +1,9 @@
 import React from 'react'
-import {HiArrowNarrowRight} from 'react-icons/hi'
 
 /*bg-[#0a192f]*/
 const home = () => {
   return (
-    <div name='home' className='w-full h-screen bg-blue-600'>
+    <div name='home' className='w-full h-screen pt-52 bg-black no-scrollbar overflow-y-auto'>
 
         {/* Container */}
         <div className='max-w-[1000px] mx-auto my-auto px-8 flex flex-col justify-center h-full'>
@@ -14,13 +13,6 @@ const home = () => {
             <p className=' text-[#8892b0] py-4 max-w max-w-[700px]'>A recent graduate from University of Brighton, awarded with first class honours degree from Computer Science with 
               specialisation for Video Games industry. Currently being employed by Brighton based company called Paxton Access producing hardware and software
               in security and access control industry.</p>
-            <div>
-              <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>View Work
-                <span className='group-hover:rotate-90 duration-300'>
-                  <HiArrowNarrowRight className='ml-3'/>
-                </span>
-              </button>
-            </div>
         </div>
     </div>
   )

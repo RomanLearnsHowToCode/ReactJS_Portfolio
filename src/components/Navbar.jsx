@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import {FaGithub, FaLinkedin} from 'react-icons/fa'
 import {FiYoutube} from 'react-icons/fi'
 import {HiOutlineMail} from 'react-icons/hi'
@@ -10,67 +10,85 @@ const Navbar = () => {
         window.open("http://www.seznam.cz", "_blank")
     }
 
+    function github() {
+        window.open("https://github.com/RomanLearnsHowToCode/", "_blank")
+    }
+
+    function email() {
+        window.open('mailto:roman.liewehr@hotmail.com?subject=I have visited your portfolio')
+    }
+
+    function resume() {
+        window.open("reume_link", "_blank")
+    }
+
+    function youtube() {
+        window.open("youtube_link", "_blank")
+    }
+
     return (
-      <div name='navbar' className='fixed w-full h-[200px] mx-auto px-8 bg-[#0a192f] text-gray-300'>
-        {/* Container */}
-        <div className='flex flex-row ml-[5%]'>
-            
-            <div className='w-[80] h-[160px] flex flex-row mt-[-100px] hover:mt-[0px] duration-300 bg-blue-600'>
+      <div name='navbar' className='fixed w-full h-[200px] mx-auto px-8 bg-[#e6e6e6] text-gray-300 text-bold no-scrollbar overflow-y-auto'>
+
+        {/* Main navbar */}
+        <div className='w-full h-[200px] flex flex-row justify-center'>
+
+            <div className='w-[80] h-[160px] mt-[-100px] hover:mt-[0px] duration-300 bg-blue-600'>
             <button onClick={linkedIn}>
-                <div className=' mt-[20%] ml-[20%]'>
-                    <p className='py-5'>LinkedIn</p>
+                <div>
+                    <p className='py-10'>LinkedIn</p>
                 </div>
-                <div className='mt-[110px] ml-[-50%]'>
+                <div className='px-5'>
                         <FaLinkedin size={30}/>
                 </div>
             </button>
             </div>
 
-            <div className='w-[80] h-[160px] flex flex-row mt-[-100px] hover:mt-[0px] duration-300 bg-[#333333]'>
-                <div className=' mt-[20%] ml-[20%]'>
-                    <p className=''>GitHub</p>
-                </div>
-                <div className='mt-[110px] ml-[-50%]'>
+            <div className='w-[80] h-[160px] mt-[-100px] hover:mt-[0px] duration-300 bg-[#333333]'>
+                <button onClick={github}>
+                    <div>
+                        <p className='py-10'>GitHub</p>
+                    </div>
+                    <div className='px-5'>
                         <FaGithub size={30}/>
-                    <a href="/">
-                    </a>
-                </div>
+                    </div>
+                </button>
             </div>
 
-            <div className='w-[80] h-[160px] flex flex-row mt-[-100px] hover:mt-[0px] duration-300 bg-[#6fc2b0]'>
-                <div className=' mt-[20%] ml-[20%]'>
-                    <p className='py-5'>Email</p>
-                </div>
-                <div className='mt-[110px] ml-[-50%]'>
+            <div className='w-[80] h-[160px] mt-[-100px] hover:mt-[0px] duration-300 bg-[#6fc2b0]'>
+                <button onClick={email}>
+                    <div>
+                        <p className='py-10'>Email</p>
+                    </div>
+                    <div className='px-5'>
                         <HiOutlineMail size={30}/>
-                    <a href="/">
-                    </a>
-                </div>
+                    </div>
+                </button>
             </div>
 
-            <div className='w-[80] h-[160px] flex flex-row mt-[-100px] hover:mt-[0px] duration-300 bg-blue-300'>
-                <div className=' mt-[20%] ml-[20%]'>
-                    <p className='py-5'>Resume</p>
-                </div>
-                <div className='mt-[110px] ml-[-50%]'>
+            <div className='w-[80] h-[160px] mt-[-100px] hover:mt-[0px] duration-300 bg-blue-300'>
+                <button onClick={resume}>
+                    <div>
+                        <p className='py-10'>Resume</p>
+                    </div>
+                    <div className='px-5'>
                         <BsFillPersonLinesFill size={30}/>
-                    <a href="/">
-                    </a>
-                </div>
+                    </div>
+                </button>
             </div>
 
-            <div className='w-[80] h-[160px] flex flex-row mt-[-100px] hover:mt-[0px] duration-300 bg-red-600'>
-                <div className=' mt-[20%] ml-[20%]'>
-                    <p className='py-5'>YouTube</p>
-                </div>
-                <div className='mt-[110px] ml-[-50%]'>
+            <div className='w-[80] h-[160px] mt-[-100px] hover:mt-[0px] duration-300 bg-red-600'>
+                <button onClick={youtube}>
+                    <div>
+                        <p className='py-10'>YouTube</p>
+                    </div>
+                    <div className='px-5'>
                         <FiYoutube size={30}/>
-                    <a href="/">
-                    </a>
-                </div>
+                    </div>
+                </button>
             </div>
 
         </div>
+
       </div>
     )
 }

@@ -83,3 +83,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - THIS SHOULD BE NOW VERSION 1 CHANGE
 
 * 2x components are now showing as they supposed to, however the drop down menu is not completed quite yet.. this will need to be changed, also button functionality https://react.school/ui/button 
+
+- menu is now working fine, very small screen (below 640px) won't open social icons, this might be fixed later on, every major phone and tablet is working fine.
+
+- ABOUT is partially done, content is JUST okay, will add more content, sizing is now correct. 
+- Footer should be added and have a running text about courses, news, latest projects done.. otherwise this should be the portfolio, This should then continue with some other apps with some grids about projects.. 
+
+- colour pallete is not set, not chosen.. https://stackoverflow.com/questions/66416614/how-to-create-scrollable-element-in-tailwind-without-a-scrollbar could add this scroll bar hiding plugin, since the scroll bar is now visible, alternatively I could come up with a certain menu buttons to "load" different websites.. I would upload website to portfolio now to check how it is working, basically end of 23/08/2022
