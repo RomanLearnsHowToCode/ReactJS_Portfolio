@@ -1,18 +1,17 @@
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar";
 import Home from "./components/home";
 import About from "./components/about";
 import Skills from "./components/skills";
 import Work from "./components/work";
-import Animation1 from "./components/animation1";
+import Navbar2 from "./components/navbar2";
+
 
 function App() {
   return (
-    <div>
+    <div className="bg-white">
       <Navbar/>
       <Home/>
-      <About/>
-      <Skills />
-      <Work />
+      <Work/>
     </div>
   );
 }

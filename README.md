@@ -77,3 +77,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Quite a lot of work done today, added the animated background for future reference: https://youtu.be/Tmkr2kKUEgU, finished at 55 minute: https://youtu.be/2kg0z1qNrkw
 
 - finalising this tutorial, skipped some parts as they are not required.. react-scroll package seems to be interesting where this would do a smooth transition from anywhere on the site to the top and such.. at the same time found so called neumorphism - https://css-tricks.com/neumorphism-and-css/ & https://www.npmjs.com/package/tailwindcss-neumorphism - https://www.youtube.com/watch?v=k48zirCrx8Q - https://neumorphism.io/#e0e0e0 - https://www.youtube.com/watch?v=O7WbVj5apxU glass design of Ui etc.. 
+
+- colours to use -> bold text #333333 & normal text #555555 & blue-400 for details etc 
+
+
+* deleted from Navbar, 
+            <ul className='flex flex-row justify-between'>
+                <li className='basis-1/4'>Home</li>
+                <li className='basis-1/4'>About</li>
+                <li className='basis-1/4'>Skills</li>
+                <li className='basis-1/4'>Work</li>
+                <li className='basis-1/4'>Contact</li>
+            </ul>
+
+
+- brain doesn't work anymore today, I am quite happy with the result of todays effort and will commit and that's it for today.. could spend a bit of time to search online for some grid layouts etc.. since would like to use GRID layout for my work experience, the work experience should have grid of pictures, with like company names 
+
+- https://youtu.be/Pe1Vo2N3Z2c sliding menu to be sorted out
+- another great navbar video, also the sliding video on side https://youtu.be/vafc43cIUz8 (this one is actually amazing and talking about another things I need to do.. so I would definitelly watch this one and follow it)
