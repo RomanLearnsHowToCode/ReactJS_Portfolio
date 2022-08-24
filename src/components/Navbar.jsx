@@ -27,7 +27,7 @@ const Navbar = () => {
     }
 
     return (
-      <div name='navbar' className='fixed w-full h-[200px] mx-auto px-8 bg-[#e6e6e6] text-gray-300 text-bold no-scrollbar overflow-y-auto'>
+      <div name='navbar' className='fixed w-full h-[200px] mx-auto px-8 bg-[#e6e6e6] text-gray-300 text-bold'>
 
         {/* Main navbar */}
         <div className='w-full h-[200px] flex flex-row justify-center'>
@@ -87,8 +87,10 @@ const Navbar = () => {
                 </button>
             </div>
 
+        <div className="fixed h-[200px] w-screen mix-blend-multiply filter blur-xl opacity-70 bg-blue-500 sm:square"></div>
         </div>
-
+        
+        <div className="absolute -bottom-10 left-40 w-52 h-52 bg-green-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
       </div>
     )
 }

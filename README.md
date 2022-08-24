@@ -90,3 +90,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Footer should be added and have a running text about courses, news, latest projects done.. otherwise this should be the portfolio, This should then continue with some other apps with some grids about projects.. 
 
 - colour pallete is not set, not chosen.. https://stackoverflow.com/questions/66416614/how-to-create-scrollable-element-in-tailwind-without-a-scrollbar could add this scroll bar hiding plugin, since the scroll bar is now visible, alternatively I could come up with a certain menu buttons to "load" different websites.. I would upload website to portfolio now to check how it is working, basically end of 23/08/2022
+
+- https://www.smarterasp.net/support/kb/a2176/how-to-publish-a-react_js-project-to-your-hosting-account.aspx how to build the project and then upload to the server
+
+- added GRID layout for skills, this could be great to add some technologies I have been working with, or at least use it a idea
+- added the animation to the mix, seems to be lovely.. 
+
+- going to follow a guide how to do a portfolio from here: https://www.freecodecamp.org/news/build-portfolio-website-react/ & the inspiration for the portfolio will be:
+ https://preview.themeforest.net/item/minimau-react-minimal-portfolio-template/full_screen_preview/26303041
+ 
+  &
+
+  https://preview.themeforest.net/item/minimau-react-minimal-portfolio-template/full_screen_preview/26303041?_ga=2.262582347.67186548.1610511172-933693064.1600738304&irgwc=1&clickid=QUAziu2SExyNUrI3HI1nmWcDUkDUZaQNA2uMwg0&iradid=275988&irpid=2305834&iradtype=ONLINE_TRACKING_LINK&irmptype=mediapartner&mp_value1=&utm_campaign=af_impact_radius_2305834&utm_medium=affiliate&utm_source=impact_radius
+  
+   &
+
+   https://play.tailwindcss.com 
+
+   For this I would create yet another branch, since this branch was successfull and the goal of this is now done.
