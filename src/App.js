@@ -4,14 +4,13 @@ import About from "./components/about";
 import Skills from "./components/skills";
 import Work from "./components/work";
 import Navbar2 from "./components/navbar2";
+import Geeks from "./components/geeks";
 
 
 function App() {
   return (
     <div className="bg-white">
-      <Navbar/>
-      <Home/>
-      <Work/>
+<Geeks/>
     </div>
   );
 }

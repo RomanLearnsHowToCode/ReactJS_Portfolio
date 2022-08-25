@@ -95,3 +95,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 - https://youtu.be/Pe1Vo2N3Z2c sliding menu to be sorted out
 - another great navbar video, also the sliding video on side https://youtu.be/vafc43cIUz8 (this one is actually amazing and talking about another things I need to do.. so I would definitelly watch this one and follow it)
+
+
+-- EXAMPLES AND LINKS CLOSED TO HAVE AN BETTER ORDER IN WORK:
+https://play.tailwindcss.com/ULwT6MTmWI - tailwind animated background
+https://www.canva.com/learn/100-color-combinations/ - colour combinations for portfolio
+
+
+-- CSS GRID EXAMPLES: 
+https://freefrontend.com/css-grid-examples/

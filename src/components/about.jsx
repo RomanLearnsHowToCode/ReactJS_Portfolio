@@ -2,29 +2,98 @@ import React from 'react'
 
 const about = () => {
   return (
-    <div name="about" className='w-full h-screen bg-[#0a192f] text-gray-300 '>
-        <div className='flex flex-col justify-center items-center w-full h-full'>
-            <div className=' max-w-[1000px] w-full grid grid-cols-2 gap-8'>
-                <div className='sm:text-right pb-8 pl-4'>
-                    <p className='text-4xl font-bold inline border-b-4 border-pink-600'>
-                        About
-                    </p>
-                </div>
-                <div></div>
-                </div>
-            <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-                <div className='sm:text-right text-4xl font-bold'>
-                    <p>Hi, I'm Roman, nice to meet you. Please take a look around.</p>
-                </div>
-                    <div>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                            Ab inventore quod, pariatur sit voluptas aspernatur quia commodi mollitia aperiam. Voluptate, 
-                            nostrum eos! Eaque velit sint laudantium aspernatur! Cupiditate, voluptatibus culpa.
-                        </p>
-                    </div>
-                </div>
+    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-10'>
+
+<a href="https://www.kindacode.com"
+            className="flex flex-col bg-white drop-shadow hover:drop-shadow-lg hover:opacity-70 rounded-md">
+            <img src=" https://www.kindacode.com/wp-content/uploads/2022/07/kindacode-example.png" alt="Fiction Product"
+className="h-36 object-cover rounded-tl-md rounded-tr-md"/>
+            <div className="px-3 py-2">
+                <h1 className="font-semibold">Product One</h1>
+                <p className="text-sm">$69.69</p>
             </div>
-        </div>
+        </a>
+
+        <a href="https://www.kindacode.com"
+            className="flex flex-col bg-white drop-shadow hover:drop-shadow-lg hover:opacity-70 rounded-md">
+            <img src=" https://www.kindacode.com/wp-content/uploads/2022/07/kindacode-example.png" alt="Fiction Product"
+className="h-36 object-cover rounded-tl-md rounded-tr-md"/>
+            <div className="px-3 py-2">
+                <h1 className="font-semibold">Product One</h1>
+                <p className="text-sm">$69.69</p>
+            </div>
+        </a>
+
+        <a href="https://www.kindacode.com"
+            className="flex flex-col bg-white drop-shadow hover:drop-shadow-lg hover:opacity-70 rounded-md">
+            <img src=" https://www.kindacode.com/wp-content/uploads/2022/07/kindacode-example.png" alt="Fiction Product"
+className="h-36 object-cover rounded-tl-md rounded-tr-md"/>
+            <div className="px-3 py-2">
+                <h1 className="font-semibold">Product One</h1>
+                <p className="text-sm">$69.69</p>
+            </div>
+        </a>
+
+        <a href="https://www.kindacode.com"
+            className="flex flex-col bg-white drop-shadow hover:drop-shadow-lg hover:opacity-70 rounded-md">
+            <img src=" https://www.kindacode.com/wp-content/uploads/2022/07/kindacode-example.png" alt="Fiction Product"
+className="h-36 object-cover rounded-tl-md rounded-tr-md"/>
+            <div className="px-3 py-2">
+                <h1 className="font-semibold">Product One</h1>
+                <p className="text-sm">$69.69</p>
+            </div>
+        </a>
+
+        <a href="https://www.kindacode.com"
+            className="flex flex-col bg-white drop-shadow hover:drop-shadow-lg hover:opacity-70 rounded-md">
+            <img src=" https://www.kindacode.com/wp-content/uploads/2022/07/kindacode-example.png" alt="Fiction Product"
+className="h-36 object-cover rounded-tl-md rounded-tr-md"/>
+            <div className="px-3 py-2">
+                <h1 className="font-semibold">Product One</h1>
+                <p className="text-sm">$69.69</p>
+            </div>
+        </a>
+
+        <a href="https://www.kindacode.com"
+            className="flex flex-col bg-white drop-shadow hover:drop-shadow-lg hover:opacity-70 rounded-md">
+            <img src=" https://www.kindacode.com/wp-content/uploads/2022/07/kindacode-example.png" alt="Fiction Product"
+className="h-36 object-cover rounded-tl-md rounded-tr-md"/>
+            <div className="px-3 py-2">
+                <h1 className="font-semibold">Product One</h1>
+                <p className="text-sm">$69.69</p>
+            </div>
+        </a>
+
+        <a href="https://www.kindacode.com"
+            className="flex flex-col bg-white drop-shadow hover:drop-shadow-lg hover:opacity-70 rounded-md">
+            <img src=" https://www.kindacode.com/wp-content/uploads/2022/07/kindacode-example.png" alt="Fiction Product"
+className="h-36 object-cover rounded-tl-md rounded-tr-md"/>
+            <div className="px-3 py-2">
+                <h1 className="font-semibold">Product One</h1>
+                <p className="text-sm">$69.69</p>
+            </div>
+        </a>
+
+        <a href="https://www.kindacode.com"
+            className="flex flex-col bg-white drop-shadow hover:drop-shadow-lg hover:opacity-70 rounded-md">
+            <img src=" https://www.kindacode.com/wp-content/uploads/2022/07/kindacode-example.png" alt="Fiction Product"
+className="h-36 object-cover rounded-tl-md rounded-tr-md"/>
+            <div className="px-3 py-2">
+                <h1 className="font-semibold">Product One</h1>
+                <p className="text-sm">$69.69</p>
+            </div>
+        </a>
+
+        <a href="https://www.kindacode.com"
+            className="flex flex-col bg-white drop-shadow hover:drop-shadow-lg hover:opacity-70 rounded-md">
+            <img src=" https://www.kindacode.com/wp-content/uploads/2022/07/kindacode-example.png" alt="Fiction Product"
+className="h-36 object-cover rounded-tl-md rounded-tr-md"/>
+            <div className="px-3 py-2">
+                <h1 className="font-semibold">Product One</h1>
+                <p className="text-sm">$69.69</p>
+            </div>
+        </a>
+    </div>
   )
 }
 
