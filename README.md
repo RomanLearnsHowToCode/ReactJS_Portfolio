@@ -104,3 +104,11 @@ https://www.canva.com/learn/100-color-combinations/ - colour combinations for po
 
 -- CSS GRID EXAMPLES: 
 https://freefrontend.com/css-grid-examples/
+
+* IMPORTANT *
+https://www.geeksforgeeks.org/tailwind-css-object-position/?ref=lbp 
+
+full geeks for geeks TAILWIND positions guide... 
+
+* today pints so not sure if coding.. * 
+tomorrow -> yes
