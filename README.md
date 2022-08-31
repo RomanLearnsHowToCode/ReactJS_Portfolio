@@ -112,3 +112,20 @@ full geeks for geeks TAILWIND positions guide...
 
 * today pints so not sure if coding.. * 
 tomorrow -> yes
+
+https://www.geeksforgeeks.org/tailwind-css-object-position/?ref=lbp
+https://www.kindacode.com/article/tailwind-css-grid-examples/
+https://freefrontend.com/css-grid-examples/
+https://tailwindcss.com/docs/installation 
+https://www.freecodecamp.org/news/build-portfolio-website-react/
+https://preview.themeforest.net/item/minimau-react-minimal-portfolio-template/full_screen_preview/26303041 
+https://reactjsexample.com/22-best-react-portfolio-page-templates-in-2021/ 
+https://play.tailwindcss.com 
+https://larainfo.com/blogs/tailwind-css-simple-responsive-landing-page-template 
+https://demo.larainfo.com/tailwind-css/template/Tailwind%20CSS%20Simple%20Responsive%20Landing%20Page%20Template.php 
+https://play.tailwindcss.com/9IEjFauwTF 
+https://www.youtube.com/watch?v=Tmkr2kKUEgU 
+https://www.youtube.com/watch?v=JJSoEo8JSnc 
+https://www.youtube.com/watch?v=PJCr_aoOv68 
+
+- will continue on 01/09/2022, need to get the positions (flex, position, grid) working in relation with all the apps
